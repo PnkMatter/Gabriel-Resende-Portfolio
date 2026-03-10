@@ -15,7 +15,7 @@ export function About() {
           <div className="mb-12">
             <h2 className="text-4xl md:text-5xl mb-3" style={{ fontFamily: 'var(--font-sans)' }}>
               <span className="text-[#b8956a] font-mono text-xl">01.</span>{" "}
-              <span className="text-[#d4b5a0]">Sobre Mim</span>
+              <span className="text-[#d4b5a0]">About me</span>
             </h2>
             <div className="h-[2px] w-32 bg-[#b8956a]" />
           </div>
@@ -27,22 +27,25 @@ export function About() {
               viewport={{ once: true }}
               transition={{ delay: 0.2 }}
             >
-              <h3 className="text-2xl text-[#c9a997] mb-4 font-mono">// Bio Técnica</h3>
+              <h3 className="text-2xl text-[#c9a997] mb-4 font-mono">// Technical Bio</h3>
               <div className="space-y-4 text-[#a68a64] leading-relaxed">
                 <p>
-                  Sou um Engenheiro de Dados apaixonado por transformar dados complexos em 
-                  soluções tangíveis. Formado em <span className="text-[#d4b5a0]">Engenharia de Computação</span>, 
-                  venho desenvolvendo pipelines de dados escaláveis e arquiteturas de dados modernas.
+                  I am <strong>Data Scientist and AI Engineer</strong> passionate about transforming complex data into
+                  predictive insights and intelligent solutions. Forming in <span className="text-[#d4b5a0]">Computer Engineering</span>,
+                  my expertise combines advanced model development with scalable data architecture construction.
                 </p>
+
                 <p>
-                  Minha jornada na área de dados começou durante a graduação, onde descobri 
-                  o poder dos dados para impulsionar decisões estratégicas. Desde então, tenho 
-                  me dedicado a dominar tecnologias de Big Data e Cloud Computing.
+                  My journey evolved from infrastructure to intelligence, focusing on how Machine Learning and AI Generative
+                  can anticipate trends and automate strategic decisions. I have dedicated myself to applying rigorous science to
+                  Big Data and Cloud Computing ecosystems.
                 </p>
+
                 <p>
-                  Atualmente, trabalho com tecnologias como <span className="text-[#b8956a]">PySpark</span>, 
-                  <span className="text-[#b8956a]"> Azure Fabric</span>, e <span className="text-[#b8956a]">Databricks</span>, 
-                  construindo soluções que processam milhões de registros diariamente.
+                  Currently, I leverage the power of <span className="text-[#b8956a]">Python</span>,
+                  <span className="text-[#b8956a]"> PySpark</span> and <span className="text-[#b8956a]"> Databricks </span>
+                  within the <span className="text-[#b8956a]">Azure Fabric</span> environment, developing models that extract real value
+                  from high-volume data streams.
                 </p>
               </div>
             </motion.div>
@@ -59,12 +62,12 @@ export function About() {
                   <div className="p-2 bg-[#3a2d22] rounded">
                     <GraduationCap className="text-[#b8956a]" size={24} />
                   </div>
-                  <h4 className="text-xl text-[#d4b5a0] font-mono">Formação</h4>
+                  <h4 className="text-xl text-[#d4b5a0] font-mono">Degree</h4>
                 </div>
                 <p className="text-[#a68a64] leading-relaxed">
-                  <span className="text-[#c9a997]">Engenharia de Computação</span>
+                  <span className="text-[#c9a997]">Computer Engineering</span>
                   <br />
-                  <span className="text-sm">Universidade Federal - 2018</span>
+                  <span className="text-sm">University from Sorocaba (UNISO) - 2022</span>
                 </p>
               </div>
 
@@ -73,11 +76,11 @@ export function About() {
                   <div className="p-2 bg-[#3a2d22] rounded">
                     <Briefcase className="text-[#b8956a]" size={24} />
                   </div>
-                  <h4 className="text-xl text-[#d4b5a0] font-mono">Experiência</h4>
+                  <h4 className="text-xl text-[#d4b5a0] font-mono">Experience</h4>
                 </div>
                 <p className="text-[#a68a64] leading-relaxed">
-                  <span className="text-[#c9a997]">5+ anos</span> trabalhando com 
-                  engenharia de dados, analytics e cloud computing.
+                  <span className="text-[#c9a997]">3 years</span> working with
+                  data engineering, analytics and cloud computing.
                 </p>
               </div>
 
@@ -86,11 +89,11 @@ export function About() {
                   <div className="p-2 bg-[#3a2d22] rounded">
                     <Code className="text-[#b8956a]" size={24} />
                   </div>
-                  <h4 className="text-xl text-[#d4b5a0] font-mono">Especialização</h4>
+                  <h4 className="text-xl text-[#d4b5a0] font-mono">Specialization</h4>
                 </div>
                 <p className="text-[#a68a64] leading-relaxed">
-                  Data Engineering, ETL/ELT, Big Data, Cloud Architecture, 
-                  e Real-time Data Processing.
+                  Data Engineering, ETL/ELT, Big Data, Cloud Architecture,
+                  and Real-time Data Processing.
                 </p>
               </div>
             </motion.div>

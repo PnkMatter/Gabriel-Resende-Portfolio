@@ -10,11 +10,11 @@ export function Header() {
   };
 
   const navItems = [
-    { id: "about", label: "Sobre" },
+    { id: "about", label: "About" },
     { id: "stacks", label: "Stacks" },
-    { id: "projects", label: "Projetos" },
-    { id: "experience", label: "Experiência" },
-    { id: "contact", label: "Contato" },
+    { id: "projects", label: "Projects" },
+    { id: "experience", label: "Experience" },
+    { id: "contact", label: "Contact" },
   ];
 
   return (
@@ -31,7 +31,7 @@ export function Header() {
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           >
             <Terminal className="text-[#b8956a]" size={24} />
-            <span className="font-mono text-lg text-[#d4b5a0]">{"<dev/>"}</span>
+            <span className="font-mono text-lg text-[#d4b5a0]">{"Gabriel Resende"}</span>
           </motion.div>
 
           <div className="hidden md:flex gap-8">
@@ -60,7 +60,7 @@ export function Header() {
             whileTap={{ scale: 0.95 }}
             className="px-4 py-2 border border-[#b8956a] text-[#b8956a] hover:bg-[#b8956a]/10 rounded font-mono text-sm transition-colors"
           >
-            Contato
+            Contact
           </motion.a>
         </div>
       </nav>

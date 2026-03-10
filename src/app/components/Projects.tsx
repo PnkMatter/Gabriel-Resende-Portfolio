@@ -5,54 +5,54 @@ export function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Real-time Data Pipeline",
-      problem: "Processar e analisar 10M+ eventos por dia em tempo real para detecção de fraudes.",
-      technologies: ["PySpark", "Kafka", "Azure", "Databricks"],
+      title: "Industrial Predictive Maintenance AI",
+      problem: "Reduce unplanned downtime by predicting machine failures using sensor data and machine learning.",
+      technologies: ["Python", "XGBoost", "Scikit-Learn", "IoT Data"],
       github: "#",
       demo: "#",
       featured: true,
     },
     {
       id: 2,
-      title: "Data Lakehouse Architecture",
-      problem: "Consolidar dados de múltiplas fontes em uma arquitetura moderna de Data Lakehouse.",
-      technologies: ["Azure Fabric", "Delta Lake", "Python", "SQL"],
+      title: "GenAI Technical Assistant (RAG)",
+      problem: "Automating access to 'Lessons Learned' and technical manuals through a Generative AI chatbot for shop-floor engineers.",
+      technologies: ["LangChain", "OpenAI / Llama 3", "ChromaDB", "Python"],
       github: "#",
       demo: "#",
       featured: true,
     },
     {
       id: 3,
-      title: "ETL Orchestration Platform",
-      problem: "Automatizar pipelines de ETL complexos com monitoramento e alertas em tempo real.",
-      technologies: ["Apache Airflow", "Python", "PostgreSQL", "Docker"],
+      title: "Smart Energy Anomaly Detection",
+      problem: "Identify energy waste and equipment malfunctions in manufacturing lines using unsupervised anomaly detection.",
+      technologies: ["Python", "Isolation Forest", "Pandas", "Power BI"],
       github: "#",
       demo: "#",
-      featured: false,
+      featured: true,
     },
     {
       id: 4,
-      title: "ML Feature Store",
-      problem: "Construir feature store escalável para alimentar modelos de ML em produção.",
-      technologies: ["Databricks", "MLflow", "PySpark", "Redis"],
+      title: "Digital Twin & OEE Dashboard",
+      problem: "Real-time monitoring of Overall Equipment Effectiveness (OEE) and production KPIs through a digital twin simulation.",
+      technologies: ["Microsoft Fabric", "Power BI", "SQL", "PySpark"],
       github: "#",
       demo: "#",
       featured: true,
     },
     {
       id: 5,
-      title: "Data Quality Framework",
-      problem: "Implementar framework de qualidade de dados com validações automáticas e dashboards.",
-      technologies: ["Python", "Great Expectations", "dbt", "Power BI"],
+      title: "Computer Vision Quality Inspector",
+      problem: "Automating visual quality control on the production line to detect defects and reduce scrap rates.",
+      technologies: ["OpenCV", "TensorFlow", "Python", "Docker"],
       github: "#",
       demo: "#",
       featured: false,
     },
     {
       id: 6,
-      title: "Cloud Cost Optimization",
-      problem: "Reduzir custos de cloud em 40% otimizando queries e arquitetura de dados.",
-      technologies: ["Azure", "Snowflake", "Terraform", "Python"],
+      title: "Supply Chain Demand Forecaster",
+      problem: "Optimizing inventory levels of critical raw materials using time-series forecasting to prevent stockouts.",
+      technologies: ["Prophet", "Python", "Statsmodels", "Azure"],
       github: "#",
       demo: "#",
       featured: false,
@@ -72,7 +72,7 @@ export function Projects() {
           <div className="mb-12">
             <h2 className="text-4xl md:text-5xl mb-3" style={{ fontFamily: 'var(--font-sans)' }}>
               <span className="text-[#b8956a] font-mono text-xl">03.</span>{" "}
-              <span className="text-[#d4b5a0]">Projetos em Destaque</span>
+              <span className="text-[#d4b5a0]">Featured Projects</span>
             </h2>
             <div className="h-[2px] w-32 bg-[#b8956a]" />
           </div>
@@ -86,9 +86,8 @@ export function Projects() {
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
                 whileHover={{ y: -8 }}
-                className={`group relative p-6 bg-[#120f0d] border border-[#3a2d22] rounded hover:border-[#b8956a] transition-all ${
-                  project.featured ? "md:col-span-1" : ""
-                }`}
+                className={`group relative p-6 bg-[#120f0d] border border-[#3a2d22] rounded hover:border-[#b8956a] transition-all ${project.featured ? "md:col-span-1" : ""
+                  }`}
               >
                 {/* Featured Badge */}
                 {project.featured && (
@@ -130,7 +129,7 @@ export function Projects() {
                 </h3>
 
                 <div className="mb-4">
-                  <p className="text-sm text-[#8b6f47] mb-1 font-mono">// Problema Resolvido:</p>
+                  <p className="text-sm text-[#8b6f47] mb-1 font-mono">// Problem Solved:</p>
                   <p className="text-[#a68a64] leading-relaxed">{project.problem}</p>
                 </div>
 
@@ -157,11 +156,13 @@ export function Projects() {
             className="mt-12 text-center"
           >
             <motion.a
-              href="#"
+              href="https://github.com/PnkMatter"
+              target="_blank"
+              rel="noopener noreferrer"
               whileHover={{ x: 5 }}
               className="inline-flex items-center gap-2 text-[#b8956a] hover:text-[#d4b5a0] font-mono transition-colors group"
             >
-              Ver todos os projetos no GitHub
+              See all projects on Github
               <motion.span
                 animate={{ x: [0, 5, 0] }}
                 transition={{ duration: 1.5, repeat: Infinity }}

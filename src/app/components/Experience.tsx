@@ -4,34 +4,24 @@ import { motion } from "motion/react";
 export function Experience() {
   const experiences = [
     {
-      period: "2022 - Presente",
-      role: "Senior Data Engineer",
-      company: "Tech Corp",
+      period: "2025 - Presente",
+      role: "Business Development & Strategy",
+      company: "Schaeffler",
       achievements: [
-        "Liderei migração de infraestrutura on-premise para Azure, reduzindo custos em 45%",
-        "Implementei data lakehouse com Delta Lake processando 50TB+ de dados diários",
-        "Desenvolvi framework de data quality que reduziu erros em 80%",
+        "Contributed to the development and governance of the SuMa (Sustainability Manager) global project, implementing ETL pipelines with PySpark and Microsoft Fabric for global executive reporting.",
+        "Developed and automated the SMMA (Automotive Market Analysis System), streamlining data processing to provide critical insights into market trends and competitiveness.",
+        "Engineered a Macroeconomics Report for the Americas region, utilizing Web Scraping and AI-driven processing to automate data collection and visualization in Power BI.",
       ],
     },
     {
-      period: "2020 - 2022",
-      role: "Data Engineer",
-      company: "Data Solutions Inc",
+      period: "2023 - Presente",
+      role: "Independent Data Solution Developer",
+      company: "Freelance / Personal Portfolio",
       achievements: [
-        "Construí pipelines de ETL em PySpark processando 10M+ registros/hora",
-        "Automatizei 90% dos processos manuais usando Apache Airflow",
-        "Otimizei queries SQL resultando em 60% de redução no tempo de execução",
-      ],
-    },
-    {
-      period: "2018 - 2020",
-      role: "Junior Data Engineer",
-      company: "Analytics First",
-      achievements: [
-        "Desenvolvi dashboards em Power BI para análise de KPIs executivos",
-        "Implementei pipelines de dados usando Python e PostgreSQL",
-        "Participei da criação do primeiro data warehouse da empresa",
-      ],
+        "Architected end-to-end Machine Learning pipelines using Python and Scikit-Learn, focusing on predictive modeling and cost reduction for operational workflows.",
+        "Developed Generative AI solutions utilizing RAG (Retrieval-Augmented Generation) and Vector Databases to automate knowledge retrieval from complex technical documentation.",
+        "Implemented anomaly detection algorithms for time-series data, aiming to optimize resource allocation and improve industrial utility efficiency.",
+        "Designed and deployed interactive data visualization environments to transform raw structured data into actionable business insights for diverse stakeholders."],
     },
   ];
 
@@ -43,9 +33,10 @@ export function Experience() {
   ];
 
   const languages = [
-    { name: "Português", level: "Nativo", percentage: 100 },
-    { name: "Inglês", level: "Fluente", percentage: 90 },
-    { name: "Alemão", level: "Intermediário", percentage: 60 },
+    { name: "Portuguese", level: "Native", percentage: 100 },
+    { name: "English", level: "Fluent", percentage: 90 },
+    { name: "Spanish", level: "Intermediate", percentage: 80 },
+    { name: "German", level: "Novice", percentage: 5 },
   ];
 
   return (
@@ -61,7 +52,7 @@ export function Experience() {
           <div className="mb-12">
             <h2 className="text-4xl md:text-5xl mb-3" style={{ fontFamily: 'var(--font-sans)' }}>
               <span className="text-[#b8956a] font-mono text-xl">04.</span>{" "}
-              <span className="text-[#d4b5a0]">Experiência & Formação</span>
+              <span className="text-[#d4b5a0]">Experience & Education</span>
             </h2>
             <div className="h-[2px] w-32 bg-[#b8956a]" />
           </div>
@@ -70,9 +61,9 @@ export function Experience() {
           <div className="mb-16">
             <h3 className="text-2xl text-[#c9a997] mb-8 font-mono flex items-center gap-3">
               <Briefcase className="text-[#b8956a]" size={28} />
-              // Experiência Profissional
+              // Professional Experience
             </h3>
-            
+
             <div className="relative">
               {/* Timeline Line */}
               <div className="absolute left-0 md:left-8 top-0 bottom-0 w-[2px] bg-[#3a2d22]" />
@@ -131,7 +122,7 @@ export function Experience() {
             >
               <h3 className="text-2xl text-[#c9a997] mb-6 font-mono flex items-center gap-3">
                 <Award className="text-[#b8956a]" size={28} />
-                // Certificações
+                // Certifications
               </h3>
               <div className="space-y-4">
                 {certifications.map((cert, index) => (
@@ -165,7 +156,7 @@ export function Experience() {
             >
               <h3 className="text-2xl text-[#c9a997] mb-6 font-mono flex items-center gap-3">
                 <Languages className="text-[#b8956a]" size={28} />
-                // Idiomas
+                // Languages
               </h3>
               <div className="space-y-6">
                 {languages.map((lang, index) => (

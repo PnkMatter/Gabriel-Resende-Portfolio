@@ -1,9 +1,9 @@
 import { motion } from "motion/react";
-import { 
-  Code2, 
-  Database, 
-  Cloud, 
-  Wrench, 
+import {
+  Code2,
+  Database,
+  Cloud,
+  Wrench,
   Sparkles,
   Server
 } from "lucide-react";
@@ -11,40 +11,40 @@ import {
 export function Stacks() {
   const techCategories = [
     {
-      title: "Linguagens",
+      title: "Languages & Analytics",
       icon: Code2,
       color: "#b8956a",
-      techs: ["Python", "SQL", "Scala", "R", "Bash/Shell"],
+      techs: ["Python", "SQL", "R", "C++"],
+    },
+    {
+      title: "AI & Machine Learning",
+      icon: Sparkles,
+      color: "#c9a997",
+      techs: ["Scikit-learn", "PyTorch", "TensorFlow", "MLflow", "LLMs"],
     },
     {
       title: "Big Data & Processing",
       icon: Sparkles,
-      color: "#c9a997",
-      techs: ["Apache Spark", "PySpark", "Databricks", "Azure Fabric", "Hadoop"],
-    },
-    {
-      title: "Databases",
-      icon: Database,
       color: "#a68a64",
-      techs: ["PostgreSQL", "MySQL", "MongoDB", "Redis", "Snowflake"],
+      techs: ["PySpark", "Databricks", "Azure Fabric", "Spark MLlib", "Hadoop"],
     },
     {
-      title: "Cloud & Infrastructure",
+      title: "Cloud & AI Infrastructure",
       icon: Cloud,
       color: "#8b6f47",
-      techs: ["Azure", "AWS", "Docker", "Kubernetes", "Terraform"],
+      techs: ["Azure ML", "Docker", "Kubernetes"],
     },
     {
-      title: "ETL & Data Tools",
-      icon: Server,
+      title: "Data Architecture",
+      icon: Database,
       color: "#d4b5a0",
-      techs: ["Apache Airflow", "dbt", "Kafka", "Azure Data Factory", "Fivetran"],
+      techs: ["PostgreSQL", "MongoDB", "Delta Lake"],
     },
     {
-      title: "Ferramentas & Outros",
+      title: "Visualização & Ferramentas",
       icon: Wrench,
       color: "#c9a997",
-      techs: ["Git", "Linux", "Jupyter", "Power BI", "Tableau"],
+      techs: ["Jupyter", "Matplotlib/Seaborn", "Power BI", "Git", "Linux"],
     },
   ];
 
@@ -61,7 +61,7 @@ export function Stacks() {
           <div className="mb-12">
             <h2 className="text-4xl md:text-5xl mb-3" style={{ fontFamily: 'var(--font-sans)' }}>
               <span className="text-[#b8956a] font-mono text-xl">02.</span>{" "}
-              <span className="text-[#d4b5a0]">Stacks & Tecnologias</span>
+              <span className="text-[#d4b5a0]">Stacks & Technologies</span>
             </h2>
             <div className="h-[2px] w-32 bg-[#b8956a]" />
           </div>
@@ -117,12 +117,12 @@ export function Stacks() {
             transition={{ delay: 0.5 }}
             className="mt-12 p-6 bg-[#1a1614] border border-[#3a2d22] rounded"
           >
-            <h3 className="text-xl text-[#d4b5a0] mb-6 font-mono">// Proficiência Principal</h3>
+            <h3 className="text-xl text-[#d4b5a0] mb-6 font-mono">// Main Proficiency</h3>
             <div className="grid md:grid-cols-2 gap-6">
               {[
                 { skill: "Python & PySpark", level: 95 },
                 { skill: "SQL & Data Modeling", level: 90 },
-                { skill: "Cloud Platforms (Azure/AWS)", level: 85 },
+                { skill: "Cloud Platforms (Azure/AWS)", level: 65 },
                 { skill: "Data Pipelines & ETL", level: 92 },
               ].map((item, index) => (
                 <div key={item.skill}>

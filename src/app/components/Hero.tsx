@@ -13,7 +13,7 @@ export function Hero() {
     <section className="min-h-screen flex items-center justify-center relative bg-[#120f0d] pt-20">
       {/* Grid Background */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#3a2d2215_1px,transparent_1px),linear-gradient(to_bottom,#3a2d2215_1px,transparent_1px)] bg-[size:4rem_4rem]" />
-      
+
       <div className="container mx-auto px-6 py-20 relative z-10">
         <div className="max-w-4xl mx-auto">
           <motion.div
@@ -30,7 +30,7 @@ export function Hero() {
                 <Code2 className="text-[#b8956a]" size={24} />
               </motion.div>
               <span className="font-mono text-sm text-[#a68a64]">
-                // Engenheiro de Dados
+                // Data Scientist
               </span>
             </div>
           </motion.div>
@@ -42,9 +42,9 @@ export function Hero() {
             className="text-5xl md:text-7xl mb-6 leading-tight"
             style={{ fontFamily: 'var(--font-sans)' }}
           >
-            <span className="text-[#a68a64]">Olá, sou</span>
+            <span className="text-[#a68a64]">Hello, I'm</span>
             <br />
-            <span className="text-[#d4b5a0] font-semibold">Seu Nome</span>
+            <span className="text-[#d4b5a0] font-semibold">Gabriel Resende</span>
           </motion.h1>
 
           <motion.div
@@ -54,11 +54,10 @@ export function Hero() {
             className="mb-8"
           >
             <h2 className="text-2xl md:text-3xl text-[#b8956a] mb-4 font-mono">
-              Data Engineer & Solutions Architect
+              Data Scientist & AI Engineer
             </h2>
             <p className="text-lg text-[#8b6f47] max-w-2xl leading-relaxed">
-              Especialista em construir pipelines de dados escaláveis e arquiteturas robustas 
-              que transformam dados brutos em insights estratégicos para o negócio.
+              Develop intelligent architectures and machine learning models scalable to convert large volumes of data into automation and innovation.
             </p>
           </motion.div>
 
@@ -75,7 +74,7 @@ export function Hero() {
               className="px-6 py-3 bg-[#b8956a] text-[#120f0d] rounded font-mono hover:bg-[#c9a997] transition-colors flex items-center gap-2"
             >
               <Database size={20} />
-              Ver Projetos
+              See Projects
             </motion.a>
             <motion.a
               href="#contact"
@@ -83,7 +82,7 @@ export function Hero() {
               whileTap={{ scale: 0.95 }}
               className="px-6 py-3 border border-[#b8956a] text-[#b8956a] rounded font-mono hover:bg-[#b8956a]/10 transition-colors"
             >
-              Entre em Contato
+              Get in touch
             </motion.a>
           </motion.div>
 
@@ -94,7 +93,7 @@ export function Hero() {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="flex flex-wrap gap-3 text-sm font-mono"
           >
-            {["Python", "PySpark", "SQL", "Azure Fabric", "Databricks"].map((tech, index) => (
+            {["Python", "PySpark", "SQL", "Azure Fabric", "Scikit-learn", "PyTorch", "TensorFlow"].map((tech, index) => (
               <motion.span
                 key={tech}
                 initial={{ opacity: 0, x: -20 }}

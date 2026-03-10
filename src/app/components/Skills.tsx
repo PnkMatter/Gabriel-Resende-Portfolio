@@ -27,7 +27,7 @@ export function Skills() {
     <section id="skills" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl text-center mb-12">Habilidades</h2>
-        
+
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
           {/* Hard Skills */}
           <div className="bg-white p-8 rounded-xl shadow-lg">
