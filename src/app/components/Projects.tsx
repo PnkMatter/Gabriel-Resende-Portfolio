@@ -10,7 +10,7 @@ export function Projects() {
       technologies: ["Python", "XGBoost", "Scikit-Learn", "IoT Data"],
       github: "#",
       demo: "#",
-      featured: true,
+      featured: false,
     },
     {
       id: 2,
@@ -46,7 +46,7 @@ export function Projects() {
       technologies: ["OpenCV", "TensorFlow", "Python", "Docker"],
       github: "#",
       demo: "#",
-      featured: false,
+      featured: true,
     },
     {
       id: 6,
@@ -55,7 +55,7 @@ export function Projects() {
       technologies: ["Prophet", "Python", "Statsmodels", "Azure"],
       github: "#",
       demo: "#",
-      featured: false,
+      featured: true,
     },
   ];
 
@@ -98,7 +98,7 @@ export function Projects() {
                       className="px-3 py-1 bg-[#b8956a] text-[#120f0d] rounded text-xs font-mono flex items-center gap-1"
                     >
                       <Zap size={12} />
-                      Featured
+                      In Development
                     </motion.div>
                   </div>
                 )}
