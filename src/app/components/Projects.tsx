@@ -57,6 +57,33 @@ export function Projects() {
       demo: "#",
       featured: true,
     },
+    {
+      id: 7,
+      title: "Predictive Market Share & Gap Analysis",
+      problem: "Identifying gaps and active prospecting opportunities by cross-referencing S&P Global vehicle production forecasts with internal sales history (SOCO).",
+      technologies: ["Python", "SQL", "Pandas", "XGBoost", "Prophet", "Time Series Analysis"],
+      github: "#",
+      demo: "#",
+      featured: true,
+    },
+    {
+      id: 8,
+      title: "E-Mobility Transition Forecaster",
+      problem: "Assessing product portfolio risk and guiding sustainable development by predicting the tipping point for electrification across specific regions and powertrain types.",
+      technologies: ["Python", "Scikit-Learn", "Random Forest", "K-Means Clustering", "Matplotlib", "Seaborn"],
+      github: "#",
+      demo: "#",
+      featured: true,
+    },
+    {
+      id: 9,
+      title: "Intelligent Pricing & Legal View Optimizer",
+      problem: "Mitigating financial risks by modeling the impact of macroeconomic variables and regulatory changes (Legal View) on profit margins and strategic budgeting.",
+      technologies: ["Python", "Microsoft Fabric", "Statsmodels", "Multivariate Regression", "Power BI", "DAX"],
+      github: "#",
+      demo: "#",
+      featured: true,
+    },
   ];
 
   return (
