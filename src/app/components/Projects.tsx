@@ -203,6 +203,7 @@ export function Projects() {
     {
       id: 1,
       title: "Industrial Predictive Maintenance AI",
+      image: "/Gabriel-Resende-Portfolio/images/predictive-maintenance.png",
       problem:
         "Reduce unplanned downtime by predicting machine failures using sensor data and machine learning.",
       description:
@@ -221,6 +222,7 @@ export function Projects() {
     {
       id: 2,
       title: "GenAI Technical Assistant (RAG)",
+      image: "/Gabriel-Resende-Portfolio/images/genai-assistant.png",
       problem:
         "Automating access to 'Lessons Learned' and technical manuals through a Generative AI chatbot for shop-floor engineers.",
       description:
