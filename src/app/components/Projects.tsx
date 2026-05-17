@@ -356,9 +356,9 @@ export function Projects() {
         "Documented the full experimental methodology with reproducible Jupyter notebooks and performance visualizations",
       ],
       technologies: ["Python", "Scikit-Learn", "Hugging Face Transformers", "Pandas", "NLP"],
-      github: "#",
+      github: "https://github.com/PnkMatter/Large-Scale-NLP-Sentiment-Classification-Pipeline",
       demo: "#",
-      featured: true,
+      featured: false,
     },
     {
       id: 9,
