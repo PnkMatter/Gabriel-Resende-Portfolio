@@ -35,7 +35,7 @@ export function Experience() {
   const languages = [
     { name: "Portuguese", level: "Native", percentage: 100 },
     { name: "English", level: "Fluent", percentage: 90 },
-    { name: "Spanish", level: "Intermediate", percentage: 80 },
+    { name: "Spanish", level: "Intermediate", percentage: 55 },
   ];
 
   return (
