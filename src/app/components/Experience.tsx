@@ -36,7 +36,6 @@ export function Experience() {
     { name: "Portuguese", level: "Native", percentage: 100 },
     { name: "English", level: "Fluent", percentage: 90 },
     { name: "Spanish", level: "Intermediate", percentage: 80 },
-    { name: "German", level: "Novice", percentage: 5 },
   ];
 
   return (
